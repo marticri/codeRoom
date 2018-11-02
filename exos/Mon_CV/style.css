@@ -1,3 +1,21 @@
+body
+{
+	font-family: 'MyWebFont', Arial, sans-serif;
+
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+  box-sizing: border-box;
+}
+h1,h1+p
+{
+	text-align: center;
+}
 h2
 {
 	color: #545454;
@@ -5,4 +23,14 @@ h2
 body
 {
 	background-image: url("images/cream.jpg");
+}
+
+
+.image
+{
+	float: right;
+	border: 1px black solid;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 6px 6px 6px black;
+	
 }
