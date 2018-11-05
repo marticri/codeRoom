@@ -9,10 +9,31 @@ body {
   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;*/
 }
+#header {
+  display: flex;
+justify-content: flex-end;
 
-h1, h1+p {
-  text-align: center;
+
+
 }
+
+.element:nth-child(1) /* On prend le deuxième bloc élément */
+{
+
+    align-self: center; /* Seul ce bloc sera aligné à la fin */
+}
+
+h1 {
+
+
+}
+
+ /*h1+p {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+
+}*/
 
 h2 {
   color: #545454;
@@ -26,8 +47,14 @@ body {
 }
 
 img {
-  float: right;
+
   border: 1px black solid;
   border-radius: 100px 100px 100px 100px;
   box-shadow: 6px 6px 6px black;
+
+
+}
+.image {
+
+
 }
