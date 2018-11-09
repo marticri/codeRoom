@@ -184,25 +184,61 @@ aside {
 aside img {
   margin-right: 3px;
 }
-aside h1
-{
+
+aside h1 {
   text-align: center;
 }
 
 /*footer*/
-footer
-{
+footer {
   display: flex;
+  justify-content: space-between;
+  background: url("images/ico_top.png") no-repeat top center,
+  url("images/separateur.png") repeat-x top,
+  url("images/ombre.png") repeat-x top;
+  padding-top: 25px;
+
 }
-footer h1
-{
+
+footer h1 {
   font-size: 1.1em;
 }
-footer div
-{
-  width: 33%;
+
+#tweet {
+  width: 28%;
 }
-#liste_amis
-{
+
+#photos {
+  width: 35%;
+}
+
+#amis {
+  width: 31%;
+}
+
+#liste_amis {
   display: flex;
+  font-size: 0.8em;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+#liste_amis ul {
+  list-style-type: none;
+  list-style-image: url("images/ico_liensexterne.png");
+  padding-left: 15px;
+}
+
+#liste_amis a {
+  text-decoration: none;
+  color: #760001;
+}
+
+#tweet p {
+  font-size: 0.8em;
+}
+
+#photos img {
+  margin-right: 5px;
+  border: 1px solid #181818;
 }
