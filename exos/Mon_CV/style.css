@@ -1,60 +1,63 @@
 body {
   font-family: 'lane_-_narrowregular', Arial, sans-serif;
-  /*width: 21cm;
-  height: 29.7cm;*/
   display: block;
   margin: 0 auto;
   padding: 10px 25px;
   margin-bottom: 10px;
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;*/
-}
-#header {
-  display: flex;
-justify-content: flex-end;
-
-
-
-}
-
-.element:nth-child(1) /* On prend le deuxième bloc élément */
-{
-
-    align-self: center; /* Seul ce bloc sera aligné à la fin */
-}
-
-h1 {
-
-
-}
-
- /*h1+p {
-  text-align: center;
-  width: 500px;
-  margin: auto;
-
-}*/
-
-h2 {
-  color: #545454;
-}
-p, li {
-  font-size: 1.1em;
-}
-
-body {
   background-image: url("images/cream.jpg");
 }
 
-img {
+#corps_de_page {
+  display: flex;
+}
 
+#left_panel {
+  width: 10%;
+  background-color: #383838;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+
+
+#header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+img {
   border: 1px black solid;
   border-radius: 100px 100px 100px 100px;
   box-shadow: 6px 6px 6px black;
-
-
 }
-.image {
 
+.element2 {
+  position: absolute;
+  right: 5px;
+}
 
+.sous_titre {
+  text-align: center;
+}
+
+#experience, #competences, #formation {
+  width: 33%;
+}
+
+#cv {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cv p {
+  font-size: 1em;
+}
+
+h2 
+  color: #545454;
+}
+
+p, li {
+  font-size: 1em;
 }
