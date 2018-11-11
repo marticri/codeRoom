@@ -1,60 +1,76 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url('fonts/DroidSans-webfont.eot');
+  src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/DroidSans-webfont.woff') format('woff'),
+    url('fonts/DroidSans-webfont.ttf') format('truetype'),
+    url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'lane_-_narrowregular', Arial, sans-serif;
-  /*width: 21cm;
-  height: 29.7cm;*/
-  display: block;
-  margin: 0 auto;
-  padding: 10px 25px;
-  margin-bottom: 10px;
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;*/
-}
-#header {
-  display: flex;
-justify-content: flex-end;
-
-
-
+  font-family: 'droid_sansregular', Arial, sans-serif;
+  /*background-image: url("images/WallpaperTrailerRamonRiffle.jpg");*/
+  margin: 0px;
+  padding: 0px;
+  background: url("images/WallpaperTrailerRamonRiffle.jpg") center;
 }
 
-.element:nth-child(1) /* On prend le deuxième bloc élément */
-{
+#contenu {
 
-    align-self: center; /* Seul ce bloc sera aligné à la fin */
+  min-height: 950px;
+  display: inline-block;
+  vertical-align: top;
+  /*position: relative;*/
+  width: 79%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#left_panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  background-color: #EFB810;
+  border-radius: 5px;
+  min-height: 950px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5%;
 }
 
 h1 {
-
-
-}
-
- /*h1+p {
   text-align: center;
-  width: 500px;
-  margin: auto;
-
-}*/
-
-h2 {
-  color: #545454;
-}
-p, li {
-  font-size: 1.1em;
-}
-
-body {
-  background-image: url("images/cream.jpg");
 }
 
 img {
-
+  /*position: absolute;*/
+  float: right;
+  right: 5px;
+  margin-right: 3%;
+  margin-top: 2%;
   border: 1px black solid;
   border-radius: 100px 100px 100px 100px;
   box-shadow: 6px 6px 6px black;
+}
 
+.sous_titre {
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+h2 {
+  color: #354552;
 
 }
-.image {
-
-
+.fish
+{
+  color: white;
 }
