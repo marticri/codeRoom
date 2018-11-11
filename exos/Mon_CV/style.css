@@ -1,75 +1,62 @@
-@font-face
-{
-    font-family: 'droid_sansregular';
-    src: url('fonts/DroidSans-webfont.eot');
-    src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/DroidSans-webfont.woff') format('woff'),
-         url('fonts/DroidSans-webfont.ttf') format('truetype'),
-         url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url('fonts/DroidSans-webfont.eot');
+  src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/DroidSans-webfont.woff') format('woff'),
+    url('fonts/DroidSans-webfont.ttf') format('truetype'),
+    url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 body {
   font-family: 'droid_sansregular', Arial, sans-serif;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 25px;
-  margin-bottom: 10px;
   background-image: url("images/cream.jpg");
+  margin: 0px;
+  padding: 0px;
 }
 
-#corps_de_page {
-  display: flex;
+#contenu {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 79%;
+  margin: 0px;
+  padding: 0px;
 }
 
 #left_panel {
-  width: 10%;
-  background-color: #383838;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  background-color: #EFB810;
   border-radius: 5px;
-  margin-right: 20px;
+  min-height: 950px;
 }
 
-
-
-#header {
-  display: flex;
-  justify-content: center;
-  position: relative;
+h1 {
+  text-align: center;
 }
 
 img {
+  position: absolute;
+  right: 5px;
   border: 1px black solid;
   border-radius: 100px 100px 100px 100px;
   box-shadow: 6px 6px 6px black;
-}
-
-.element2 {
-  position: absolute;
-  right: 5px;
 }
 
 .sous_titre {
   text-align: center;
 }
 
-#experience, #competences, #formation {
-  width: 33%;
+section {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 2%;
 }
 
-#cv {
-  display: flex;
-  justify-content: space-around;
-}
-
-#cv p {
-  font-size: 1em;
-}
-
-h2
-  color: #545454;
-}
-
-p, li {
-  font-size: 1em;
+h2 {
+  color: #6E4A46;
 }
