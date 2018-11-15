@@ -66,9 +66,22 @@ section {
   width: 10%;
 
   background-color: #EFB810;
-  
+
   min-height: 950px;
   margin-right: 3%;
   /*padding: 0px;*/
+
+}
+@media all and (max-width: 1024px)
+{
+  #left_panel
+  {
+    display: none;
+  }
+  section
+  {
+    display: block;
+    width: auto;
+  }
 
 }
