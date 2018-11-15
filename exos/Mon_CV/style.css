@@ -10,68 +10,65 @@
 }
 
 body {
-  font-family: 'droid_sansregular', Arial, sans-serif;
-  /*background-image: url("images/WallpaperTrailerRamonRiffle.jpg");*/
+
   margin: 0px;
   padding: 0px;
-  background: url("images/WallpaperTrailerRamonRiffle.jpg") center;
+  background: url("images/cream.jpg") center;
 }
+h1, h2
+{
+  font-family: 'droid_sansregular', Arial, sans-serif;
+}
+h1, h1 + p
+{
+
+    text-align: center;
+}
+
+h2 {
+  color: #354552;
+
+
+}
+
+img {
+
+  float: right;
+
+
+  border: 1px black solid;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 2px 2px 2px black;
+}
+
+section {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 2%;
+
+}
+
 
 #contenu {
 
   min-height: 950px;
   display: inline-block;
   vertical-align: top;
-  /*position: relative;*/
-  width: 79%;
-  margin: 0px;
-  padding: 0px;
+
+  width: 85%;
+
 }
 
 #left_panel {
   display: inline-block;
   vertical-align: top;
-  width: 15%;
-  margin-right: 2%;
+  width: 10%;
+
   background-color: #EFB810;
-  border-radius: 5px;
+  
   min-height: 950px;
-  margin: 0px;
-  padding: 0px;
-
-}
-
-h1 {
-  text-align: center;
-}
-
-img {
-  /*position: absolute;*/
-  float: right;
-  right: 5px;
   margin-right: 3%;
+  /*padding: 0px;*/
 
-  border: 1px black solid;
-  border-radius: 100px 100px 100px 100px;
-  box-shadow: 6px 6px 6px black;
-}
-
-.sous_titre {
-  text-align: center;
-}
-
-section {
-  display: inline-block;
-  width: 25%;
-  vertical-align: top;
-  margin-right: 2%;
-}
-
-h2 {
-  color: #354552;
-
-}
-.fish
-{
-  color: white;
 }
