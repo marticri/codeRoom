@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'aileronregular';
+  src: url('fonts/Aileron-Regular-webfont.eot');
+  src: url('fonts/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Aileron-Regular-webfont.woff2') format('woff2'),
+    url('fonts/Aileron-Regular-webfont.woff') format('woff'),
+    url('fonts/Aileron-Regular-webfont.ttf') format('truetype'),
+    url('fonts/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: aileronregular, sans-serif;
+  margin: 0;
+}
+
+#menu_div {
+  position: relative;
+}
+
+  {}
+
+header {
+  background-image: url("images/ble1.jpg");
+  padding: 20px;
+  height: 60px;
+}
+
+#aside_div {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#aside_top {
+  /*background: #F36B11;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 60px;
+  height: 50px;
+  width: 270px;*/
+}
+
+#aside_menu {
+  position: fixed;
+  width: 220px;
+  /*box-shadow:  rgba(121,121,121,.35) 1px 10px 20px;*/
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#aside_menu ul {
+  list-style: none;
+  padding-left: 0px;
+  /*box-shadow:  rgba(121,121,121,.35) 1px 10px 20px;*/
+}
+
+#aside_menu li {
+  margin-bottom: 20px;
+}
+
+#aside_menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;S
+  font-size: .9em;
+}
+.menu_titre{
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+#menu_div h1 {
+  position: absolute;
+  margin:auto;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  text-align: center;
+  font-size: 3em;
+  color: #F36B11;
+}
+#article_div{
+  display: inline-block;
+}
+
+#pages {
+  font-size: .95em;
+  display: block;
+  height: auto;
+  margin-left: 430px;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-right: 200px;
+  ;
+}
+
+#pages p {
+  line-height: 1.625em;
+}
+.img{
+
+  display: inline-block;
+  position: relative
+
+}
+.img img{
+position: absolute;
+left: -50px;
+top: -50px;
+  border-radius: 100%;
+  box-shadow:  rgba(121,121,121,.35) 1px 10px 20px;
+}
+#pages h2 {
+  margin-left: 70px;
+  display: inline-block;
+  line-height: 2em;
+  font-size: 1.625em;
+}
+
+section {}
